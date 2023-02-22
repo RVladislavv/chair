@@ -1,3 +1,29 @@
-h1 a {
-  color: black;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #333333;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #efefef;
+  height: 50px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_list li {
+  list-style-type: none;
+}
+.nav_list li a {
+  text-decoration: none;
+  color: #333333;
 }/*# sourceMappingURL=style.css.map */
